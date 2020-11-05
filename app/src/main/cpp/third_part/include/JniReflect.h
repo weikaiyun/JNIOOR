@@ -239,14 +239,6 @@ private:
         }
     }
 
-    template<typename T>
-    Reflect on(T t) {
-        return create<T>(t);
-    }
-
-    template<typename T>
-    Reflect create(T t);
-
     JNIEnv *env;
     jobject object = NULL;
     jclass clazz = NULL;
