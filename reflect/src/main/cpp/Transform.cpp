@@ -21,7 +21,7 @@ string Transform::jstring2String(JNIEnv *env, jstring jstr_string, const char *e
         jstr_encoding = env->NewStringUTF(encoding);
     }
     //定义java String类
-    jclass jcls_String = (env)->FindClass("java/lang/String");
+    jclass jcls_String = env->FindClass("java/lang/String");
     jmethodID jmid_getBytes = env->GetMethodID(jcls_String, "getBytes", "(Ljava/lang/String;)[B");
     jbyteArray jba_bytes = (jbyteArray) env->CallObjectMethod(jstr_string, jmid_getBytes,
                                                               jstr_encoding);
