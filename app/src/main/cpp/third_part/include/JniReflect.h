@@ -35,15 +35,15 @@ class Reflect {
 public:
 
     static Reflect on(JNIEnv *env, jobject object) {
-        return Reflect(env, object);;
+        return Reflect(env, object);
     }
 
     static Reflect on(JNIEnv *env, jclass clazz) {
-        return Reflect(env, clazz);;
+        return Reflect(env, clazz);
     }
 
     static Reflect on(JNIEnv *env, string className) {
-        return Reflect(env, className);;
+        return Reflect(env, className);
     }
 
     /**
