@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "C:/Users/weikaiyun/Desktop/Android/JNIOOR/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Djnioor_demo_EXPORTS -IC:/Users/weikaiyun/Desktop/Android/JNIOOR/app/src/main/cpp/src/main/cpp/third_part -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jnioor-demo-Debug-arm64-v8a": {
+      "buildCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\.cxx\\cmake\\debug\\arm64-v8a\" jnioor-demo",
+      "buildType": "debug",
+      "toolchain": "1574936988",
+      "abi": "arm64-v8a",
+      "artifactName": "jnioor-demo",
+      "files": [
+        {
+          "src": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libjnioor-demo.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1574936988": {
+      "cppCompilerExecutable": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

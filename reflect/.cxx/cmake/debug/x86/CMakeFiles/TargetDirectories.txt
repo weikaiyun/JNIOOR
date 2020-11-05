@@ -1,0 +1,4 @@
+C:/Users/weikaiyun/Desktop/Android/JNIOOR/reflect/.cxx/cmake/debug/x86/CMakeFiles/jni-reflect.dir
+C:/Users/weikaiyun/Desktop/Android/JNIOOR/reflect/.cxx/cmake/debug/x86/CMakeFiles/jni-reflect-static.dir
+C:/Users/weikaiyun/Desktop/Android/JNIOOR/reflect/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/weikaiyun/Desktop/Android/JNIOOR/reflect/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

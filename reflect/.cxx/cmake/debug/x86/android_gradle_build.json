@@ -1,0 +1,70 @@
+{
+  "stringTable": {
+    "0": "C:/Users/weikaiyun/Desktop/Android/JNIOOR/reflect/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Djni_reflect_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/weikaiyun/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jni-reflect-Debug-x86": {
+      "buildCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" jni-reflect",
+      "buildType": "debug",
+      "toolchain": "1574936988",
+      "abi": "x86",
+      "artifactName": "jni-reflect",
+      "files": [
+        {
+          "src": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\JniReflect.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\Transform.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\release\\libs\\x86\\libjni-reflect.so",
+      "runtimeFiles": []
+    },
+    "jni-reflect-static-Debug-x86": {
+      "buildCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" jni-reflect-static",
+      "buildType": "debug",
+      "toolchain": "1574936988",
+      "abi": "x86",
+      "artifactName": "jni-reflect-static",
+      "files": [
+        {
+          "src": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\JniReflect.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\Transform.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\release\\staticlibs\\x86\\libjni-reflect.a"
+    }
+  },
+  "toolchains": {
+    "1574936988": {
+      "cppCompilerExecutable": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

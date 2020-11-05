@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jni-reflect-Debug-x86": {
+      "artifactName": "jni-reflect",
+      "buildCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" jni-reflect",
+      "abi": "x86",
+      "output": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\release\\libs\\x86\\libjni-reflect.so",
+      "runtimeFiles": []
+    },
+    "jni-reflect-static-Debug-x86": {
+      "artifactName": "jni-reflect-static",
+      "buildCommand": "C:\\Users\\weikaiyun\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\.cxx\\cmake\\debug\\x86\" jni-reflect-static",
+      "abi": "x86",
+      "output": "C:\\Users\\weikaiyun\\Desktop\\Android\\JNIOOR\\reflect\\release\\staticlibs\\x86\\libjni-reflect.a",
+      "runtimeFiles": []
+    }
+  }
+}
